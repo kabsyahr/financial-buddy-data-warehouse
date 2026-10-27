@@ -57,6 +57,18 @@ The warehouse was designed using a dimensional approach with dimension and fact 
 
 Surrogate keys are generated during the ETL process to support relationships between dimension and fact tables.
 
+## Data Warehouse Schema
+
+The dimensional model connects user, category, top-up, and time dimensions with the warehouse fact tables.
+
+![Financial Buddy Star Schema](images/star_schema.png)
+
+## Analytical Dashboard
+
+The analytical dashboard provides financial monitoring across monthly and yearly periods, including total income, total expenses, balance, and financial trends.
+
+![Financial Buddy Analytical Dashboard](images/analytical_dashboard.png)
+
 ## ETL Process
 
 The ETL pipeline was developed using **Pentaho Data Integration**.
